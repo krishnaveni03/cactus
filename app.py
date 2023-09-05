@@ -4,6 +4,7 @@ import zipfile
 import random
 import pandas as pd
 import numpy as np
+from matplotlib import pyplot as plt
 from tensorflow import keras
 import tensorflow as tf
 import seaborn as sns
