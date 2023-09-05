@@ -14,7 +14,7 @@ from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLRO
 from keras.preprocessing.image import ImageDataGenerator
 
 # Load the pre-trained model
-model = keras.models.load_model('C:/Users/student/Desktop/dl/models.h5')
+model = keras.models.load_model('models.h5')
 
 
 # Create a Streamlit app
