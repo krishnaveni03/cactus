@@ -39,9 +39,9 @@ if uploaded_image is not None:
 
     # Display the prediction result
     if prediction == 1:
-        st.write("Prediction: Cactus")
+        st.write("Prediction:No Cactus")
     else:
-        st.write("Prediction: No Cactus")
+        st.write("Prediction:  Cactus")
 
 st.sidebar.title("About")
 st.sidebar.info("This is a Streamlit app for aerial cactus identification.")
